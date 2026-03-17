@@ -7,41 +7,57 @@
     <link rel="icon">
     <style>
         body{
-            background-color: wheat;
-            display: flex;
+            background-color: #4C6663;
+            background-image: url();
+            display: block;
             height: 100vh;
             padding: 50px;
         }
 
         .containter{
-            background-color: bisque;
-            font-size: 14px;
+            background-color: #A1BAB7;
+            font-size: 20px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: black;
-            border-radius: 10px;
-            box-shadow: 0 10px 25px rgba(14, 14, 14, 0.1);
+            border-radius: 20px;
+            box-shadow: 10px 10px 20px rgba(14, 14, 14, 0.5);
         }
+
+        .title{
+            text-align: center;
+        }
+
+        #texto{
+            display: block;
+            font-size: 20px;
+        }
+
+        #rodape{
+            display: inline-flex;
+            font-size: 15px;
+        }
+
+        .backgroundImage{
+            background-image: url("https://i.pinimg.com/originals/a0/26/1a/a0261a72251486e2168dfdbde1f1cc27.gif");
+        }
+
     </style>
 
 </head>
 <body>
-    <div class="containter">
-        <div class="nav">
-            <div>
-                <button onclick="Explodes()">Explodes</button>
-                <button onclick="Implodes()">Implodes</button>
+    <table class = "backgroundImage">
+    <div class = "containter">
+        <div class = "nav">
+            <div class = "title">
+                <h2>A importância de ter um site</h2>
+                <h5>Quem não é visto não é lembrado!</h5>
             </div>
-            <h1>A importância de ter um site</h1>
-            <h3>Quem não é visto não é lembrado!</h3>
-
-            <p id="texto">Site gera credibilidade</p>
+            <p id="texto">Site gera credibilidade</p>     
             <p id="rodape">Feito por Caio
-                <a href="https://scp-wiki.wikidot.com/?text=Deixe seu recado!">Whatsapp</a>
+                <a href="https://scp-wiki.wikidot.com/?text=Deixe seu recado!"></a>
             </p>
-
-
         </div>
     </div>
-    
+    </table>
 </body>
 </html>
