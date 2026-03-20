@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'W95Fa';
+    src: url(fonts/w95fa.woff2);
+}
+
+body{
+    background-color: #208c71;
+    background-image: url("https://media.tenor.com/VWy0UrGD8tsAAAAj/internet-planet-earth.gif");
+    height: 100vh;
+    padding: 50px;
+}
+
+.backgroundImage{
+    background-image: url("https://media.tenor.com/VWy0UrGD8tsAAAAj/internet-planet-earth.gif");
+}
+
+.containter{
+
+    /* Typical windows 95 background */
+    background-color: #c0c0c0;
+    padding: 2px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+    /* Window design*/
+    border-radius: 0px;
+    border-width: 4px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-style: outset;
+    border-color: #87888F;
+    border-left-color: #ffffff;
+    border-top-color: #ffffff;
+    box-shadow: 2px 2px 1px rgba(14, 14, 14, 1);
+}
+
+.title{
+    font-size: 60px;
+    font-family: 'W95Fa', sans-serif;
+    color: white;
+    background-color: #0827f5;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.buttonsTitle{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: last baseline;
+    padding: 5px;
+    
+}
+
+.buttonsTitle button{
+    /* Typical windows 95 background */
+    background-color: #c0c0c0;
+    padding: 2px;
+    cursor: pointer; /* Makes it a pointing hand when hovering */
+
+    /* Window design*/
+    border-radius: 0px;
+    border-width: 4px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-style: outset;
+    border-color: #87888F;
+    border-left-color: #ffffff;
+    border-top-color: #ffffff;
+    box-shadow: 2px 2px 1px rgba(14, 14, 14, 1);
+}
+
+.buttonsTitle button img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    object-fit: contain;
+
+}
+
+.subtitle{
+
+}
+
+.info{
+
+}
+
+.aboutMe{
+
+}
