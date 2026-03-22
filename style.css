@@ -3,11 +3,13 @@
     src: url(fonts/w95fa.woff2);
 }
 
+
 body{
     background-color: #208c71;
     background-image: url("https://media.tenor.com/VWy0UrGD8tsAAAAj/internet-planet-earth.gif");
     height: 100vh;
     padding: 50px;
+    cursor:url(icons/arrow.cur), auto;
 }
 
 .backgroundImage{
@@ -24,7 +26,7 @@ body{
     flex-direction: column;
 
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'W95Fa', sans-serif;
 
     /* Window design*/
     border-radius: 0px;
@@ -46,12 +48,11 @@ body{
     display: flex;
     padding-bottom: 10px;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .buttonsTitle{
-    display: flexbox;
-    flex-direction: row;
-    justify-content: last baseline;
+    display: flex;
     padding: 5px;
     
 }
@@ -60,7 +61,7 @@ body{
     /* Typical windows 95 background */
     background-color: #c0c0c0;
     padding: 2px;
-    cursor: pointer; /* Makes it a pointing hand when hovering */
+    cursor: url(icons/Cursor_15.cur), pointer; /* Makes it a pointing hand when hovering */
 
     /* Window design*/
     border-radius: 0px;
@@ -75,15 +76,58 @@ body{
 }
 
 .buttonsTitle button img{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     display: block;
     object-fit: contain;
+}
+
+.buttonsTitle .closeIcon{
+    margin-left: 4px;
+}
+
+.websiteImages {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    gap: 2px; 
+    
+    width: 100%; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+.websiteImages img {
+    width: 40%; 
+    height: 300px; 
+    object-fit: cover;
+    object-position: top;
+
+    background-image: url("images/Clouds_/Windows_95.png");
+
+    border-radius: 0px;
+    border-width: 4px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-style: outset;
+    border-color: #87888F;
+    border-left-color: #ffffff;
+    border-top-color: #ffffff;
+    box-shadow: 2px 2px 1px rgba(14, 14, 14, 1);
+}
+
+.websiteImages .imageOld{
 
 }
 
-.subtitle{
+.websiteImages .imageNew{
 
+}
+
+
+.subtitle{
+    font-style: italic;
 }
 
 .info{
@@ -92,4 +136,8 @@ body{
 
 .aboutMe{
 
+}
+
+a:hover{
+    cursor: url(icons/help_win95.cur), help;
 }

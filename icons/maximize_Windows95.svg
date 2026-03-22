@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 957.84 836.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c0c7c8;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #87888f;
+      }
+    </style>
+  </defs>
+  <g transform="matrix(1.313915, 0, 0, 1.355555, -151.372894, -114.233505)" style="">
+    <rect x="237.706" y="291.594" width="63.071" height="312.787" style="stroke: rgb(0, 0, 0);"/>
+    <rect x="660.588" y="291.242" width="61.118" height="313.275" style="stroke: rgb(0, 0, 0); stroke-width: 1px;"/>
+    <rect x="238.133" y="544.768" width="483.426" height="59.527" style="stroke: rgb(0, 0, 0); stroke-width: 1px;"/>
+    <rect x="237.749" y="180.886" width="483.939" height="110.321" style="stroke: rgb(0, 0, 0); stroke-width: 1px;"/>
+  </g>
+</svg>
