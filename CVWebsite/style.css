@@ -1,0 +1,61 @@
+body{
+    /* cleans margin */
+    margin: 0;
+    min-height: 100vh;
+    
+    /* creates the bas of the background */
+    background-color: black;
+    /* background-image: url("images/ascii-background.png"); */
+    /* background-image: url("images/ascii-backgroundDark.png"); */
+    background-image: url("images/hKOGoex.jpg");
+    
+    /* Adds some fixes to the images */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* When scrolling, fixes the image */
+    background-attachment: fixed;
+}
+
+.infoWindow{
+    background-color: rgba(30, 144, 255, 0.50); 
+    
+    /* Optional: Adds a modern frosted-glass blur behind the window */
+    backdrop-filter: blur(2px);
+
+
+}
+
+.aboutMeInfo{
+    background-color: rgba(30, 144, 255, 0.05); 
+    
+    /* Optional: Adds a modern frosted-glass blur behind the window */
+    backdrop-filter: blur(2px);
+}
+
+.aboutMe{
+    background-color: rgba(30, 144, 255, 0.05); 
+    
+    /* Optional: Adds a modern frosted-glass blur behind the window */
+    backdrop-filter: blur(2px);
+}
+
+.whatCanIDo{
+    background-color: rgba(30, 144, 255, 0.05); 
+    
+    /* Optional: Adds a modern frosted-glass blur behind the window */
+    backdrop-filter: blur(2px);
+}
+
+.underConstruction{
+    background-color: rgba(30, 144, 255, 0.05); 
+    
+    /* Optional: Adds a modern frosted-glass blur behind the window */
+    backdrop-filter: blur(2px);
+    
+}
+
+.underConstructioncontent{
+    align-items: center;
+}
